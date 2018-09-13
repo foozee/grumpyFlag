@@ -1,0 +1,12 @@
+{
+  "name": "Grumpy Flag",
+  "version": "0.01",
+  "description": "Shows flags on Facebook while hovering them.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://*.facebook.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
