@@ -1,7 +1,7 @@
 {
   "name": "Grumpy Flag",
   "version": "0.01",
-  "description": "Shows flags on Facebook while hovering them.",
+  "description": "Shows the country name when hovering a flag emoji on facebook",
   "manifest_version": 2,
   "content_scripts": [
     {
